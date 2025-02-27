@@ -1,0 +1,83 @@
+**Prompt for Replit Agent: EMI Calculator with Bike Details, Loan Amount, Interest Scheme, Down Payment, and Monthly EMI Breakdown**
+
+---
+
+**Title:** Bike Loan EMI Calculator with Advanced Features
+
+**Description:**  
+Create an interactive EMI calculator that allows users to calculate their monthly EMI for a bike loan. The calculator should include the following features:
+
+1. **Bike Details:**
+   - Input field for the bike's name.
+   - Input field for the bike's MRP (Maximum Retail Price).
+
+2. **Loan Amount:**
+   - Input field for the user to enter the desired loan amount.
+   - The loan amount should be automatically calculated as a percentage of the bike's MRP (e.g., 80% of MRP) but allow the user to manually adjust it.
+
+3. **Interest Scheme:**
+   - Dropdown or input field for the user to select or enter the interest rate (in percentage).
+   - Input field for the loan tenure in years (e.g., 1 year, 2 years, 3 years).
+   - The interest should be calculated based on the loan amount and tenure, and the total interest should be added to the loan amount.
+
+4. **Down Payment:**
+   - Input field for the user to enter the down payment amount (if any).
+   - The loan amount should be adjusted accordingly after subtracting the down payment.
+
+5. **EMI Calculation:**
+   - Automatically calculate and display the EMI for three standard tenures: 12 months, 24 months, and 36 months.
+   - The EMI should be calculated based on the adjusted loan amount (after down payment) and the total interest.
+
+6. **Monthly EMI Breakdown:**
+   - Display a detailed breakdown of the EMI for each tenure, showing:
+     - Principal amount.
+     - Interest amount.
+     - Total payment (Principal + Interest).
+   - Provide a clear summary of the total amount payable over the loan tenure.
+
+7. **User Interface:**
+   - The UI should be clean, intuitive, and user-friendly.
+   - Use sliders or dropdowns for easy input adjustment.
+   - Display the results in a well-organized manner with clear labels.
+
+**Example Workflow:**
+
+1. User enters the bike name and MRP.
+2. User enters the loan amount (default is 80% of MRP, but adjustable).
+3. User selects the interest rate and loan tenure.
+4. User enters the down payment (optional).
+5. The calculator automatically displays the EMI for 12, 24, and 36 months.
+6. The user can see the monthly EMI breakdown and total payable amount for each tenure.
+
+**Additional Features:**
+- Allow the user to switch between different interest schemes (e.g., fixed interest, reducing balance).
+- Provide a graphical representation of the EMI breakdown (e.g., pie chart or bar graph).
+- Option to export the EMI details as a PDF or share via email.
+
+**Output Example:**
+
+```
+Bike Name: XYZ Bike
+MRP: ₹1,00,000
+Loan Amount: ₹80,000
+Down Payment: ₹10,000
+Adjusted Loan Amount: ₹70,000
+Interest Rate: 10%
+Loan Tenure: 2 years
+
+EMI Breakdown:
+- 12 Months: ₹6,500 (Principal: ₹5,833, Interest: ₹667)
+- 24 Months: ₹3,500 (Principal: ₹2,916, Interest: ₹584)
+- 36 Months: ₹2,500 (Principal: ₹1,944, Interest: ₹556)
+
+Total Payable:
+- 12 Months: ₹78,000
+- 24 Months: ₹84,000
+- 36 Months: ₹90,000
+```
+
+**Note:** Ensure the calculator is responsive and works seamlessly on both desktop and mobile devices.
+
+---
+
+This prompt provides a clear and detailed guide for creating an EMI calculator with advanced features, ensuring a smooth user experience.
